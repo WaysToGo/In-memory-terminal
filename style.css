@@ -4,7 +4,9 @@ h3 {
 
 }
 
-#terminal {}
+#terminal {
+  flex:1 0 auto; 
+}
 
 .directory {
     font-weight: 700;
@@ -49,4 +51,19 @@ body {
 
 .green {
     color: green
+}
+
+.container{
+  display:flex;
+}
+
+.commands{
+  width:20vw;
+  border:2px dotted;
+     padding-left:10px;
+  box-sizing:border-box;
+  margin-right:10px;
+}
+.command{
+  color:green;
 }
